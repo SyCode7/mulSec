@@ -93,7 +93,7 @@ String userName="";
 
 String password="";
 
-File f= new File("config.txt");
+File f= new File("C:\\Users\\Kennedy.Torkura\\config.txt");
 
 String path = f.getPath();
 

@@ -1,7 +1,7 @@
 package de.start;
 
 /*
-Retrieve reletive data from NVD database for further calculation.
+Retrieve relative data from NVD database for further calculation.
 Author(s) : Su Zhang, Xinming Ou
 Copyright (C) 2011, Argus Cybersecurity Lab, Kansas State University
 

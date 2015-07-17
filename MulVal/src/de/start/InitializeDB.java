@@ -82,30 +82,28 @@ public class InitializeDB {
 
 	}*/
 
-	public static Connection getConnection() throws SQLException,
+	public static Connection getConnection() throws SQLException, java.lang.ClassNotFoundException, IOException {
 
-	java.lang.ClassNotFoundException, IOException {
+		String url = "jdbc:mysql://localhost:3306/mulvalDB";
 
-//String url = "jdbc:mysql://localhost:3306/mulvalDB";
-
-Class.forName("com.mysql.jdbc.Driver");
+		Class.forName("com.mysql.jdbc.Driver");
 
 //String userName = "root";
 
 //String password = "";
 
-String url="";
+//String url="";
 
 String userName="";
 
 String password="";
-String MulvalRootEnv = System.getenv("MULVALROOT");
+//String MulvalRootEnv = System.getenv("MULVALROOT");
 
 //System.out.println(MulvalRootEnv);
 
 //File f = new File(MulvalRootEnv + "/src/dataPreProcessing/translator/config.txt");
 
-File f= new File("config.txt");
+File f= new File("C:\\Users\\Kennedy.Torkura\\config.txt");
 
 String path = f.getPath();
 
@@ -135,7 +133,7 @@ String path = f.getPath();
 
 		
 
-		setupDB(Integer.parseInt(args[0]));
+		setupDB(Integer.parseInt("473", 10));
 
 		
 
@@ -149,7 +147,7 @@ String path = f.getPath();
 
 		try {
 
-			//String filename = "nvdcve-2008.xml";
+			String filename = "nvdcve-2008.xml";
 
 
 

@@ -11,5 +11,6 @@
 			<attribute name="maven.scope" value="compile"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Kennedy.Torkura/Downloads/mulval_1_1.tar/mulval_1_1/mulval/lib/mysql-connector-java-5.1.8-bin.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
